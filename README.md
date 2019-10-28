@@ -1,5 +1,3 @@
-# Hugo docker
-
 The offical Docker in docker image with AWS-CLI. Useful for pipelines.
 
 Usage
