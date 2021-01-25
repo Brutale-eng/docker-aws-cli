@@ -5,7 +5,7 @@ Usage
 
 Replace `image: docker:stable` by `image: brutale/docker-aws-cli` and your pipelines can make use of the `aws` command. It saves some processing and CI minutes.
 
-## Gitlab CI integration with push to Github
+## Gitlab CI integration with push to Amazon Container Registry
 The following `.gitlab-ci.yml` is an example on how to build a Docker image and push it to AWS ECR.
 
 Make sure to set the following environment variables in the CI/CD configuration, or add them under the `variables` section:
